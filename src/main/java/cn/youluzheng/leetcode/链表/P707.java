@@ -1,20 +1,12 @@
 package cn.youluzheng.leetcode.链表;
 
+import cn.youluzheng.leetcode.util.ListNode;
+
 /**
  * 设计链表
  */
 public class P707 {
     static class MyLinkedList {
-        static class ListNode {
-            public int val;
-            public ListNode next;
-
-            public ListNode(int val, ListNode next) {
-                this.val = val;
-                this.next = next;
-            }
-        }
-
         private final ListNode head;
         private int length;
 
