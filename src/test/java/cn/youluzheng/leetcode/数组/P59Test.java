@@ -2,21 +2,19 @@ package cn.youluzheng.leetcode.数组;
 
 import cn.youluzheng.leetcode.util.PrintUtil;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.conversions.IntegerConversion;
 
-import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class P59Test {
 
-    boolean isEqualsTo(List<Integer> source, int[] target){
-        if(source.size() != target.length){
+    boolean isEqualsTo(List<Integer> source, int[] target) {
+        if (source.size() != target.length) {
             return false;
         }
-        for(int i=0;i<source.size();i++){
-            if(source.get(i) != target[i]){
+        for (int i = 0; i < source.size(); i++) {
+            if (source.get(i) != target[i]) {
                 return false;
             }
         }

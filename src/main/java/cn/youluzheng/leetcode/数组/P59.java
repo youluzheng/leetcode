@@ -14,20 +14,20 @@ public class P59 {
         int d_limit = n;
         int count = 1;
         int[][] result = new int[n][n];
-        while(count <= n*n){
-            for(r++,c++;c<r_limit;c++){
+        while (count <= n * n) {
+            for (r++, c++; c < r_limit; c++) {
                 result[r][c] = count++;
             }
             u_limit++;
-            for(r++,c--;r<d_limit;r++){
+            for (r++, c--; r < d_limit; r++) {
                 result[r][c] = count++;
             }
             r_limit--;
-            for(c--,r--;c>l_limit;c--){
+            for (c--, r--; c > l_limit; c--) {
                 result[r][c] = count++;
             }
             d_limit--;
-            for(r--,c++;r>u_limit;r--){
+            for (r--, c++; r > u_limit; r--) {
                 result[r][c] = count++;
             }
             l_limit++;
