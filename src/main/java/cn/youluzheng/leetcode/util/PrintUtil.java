@@ -22,4 +22,12 @@ public class PrintUtil {
         }
         System.out.println();
     }
+
+    public static void print(ListNode node, int n) {
+        while (node != null && n-- != 0) {
+            System.out.print(node.val + ", ");
+            node = node.next;
+        }
+        System.out.println();
+    }
 }
