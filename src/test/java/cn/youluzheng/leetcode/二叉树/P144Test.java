@@ -27,4 +27,11 @@ class P144Test {
         List<Integer> actual = P144.preorderTraversal(nums.length == 0 ? null : new TreeNode(nums));
         assertEquals(expected, actual);
     }
+
+    @ParameterizedTest
+    @MethodSource("generate")
+    void preorderTraversal2(int[] nums, List<Integer> expected) {
+        List<Integer> actual = P144.preorderTraversal2(nums.length == 0 ? null : new TreeNode(nums));
+        assertEquals(expected, actual);
+    }
 }
