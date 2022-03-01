@@ -39,4 +39,28 @@ public class P145 {
         Collections.reverse(result);
         return result;
     }
+
+    public List<Integer> postorderTraversal3(TreeNode root) {
+        List<Integer> result = new LinkedList<>();
+        Deque<TreeNode> stack = new LinkedList<>();
+        if (root != null) {
+            stack.push(root);
+        }
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            if (node != null) {
+                stack.push(node);
+                stack.push(null);
+                if (node.right != null) {
+                    stack.push(node.right);
+                }
+                if (node.left != null) {
+                    stack.push(node.left);
+                }
+            } else {
+                result.add(stack.pop().val);
+            }
+        }
+        return result;
+    }
 }
