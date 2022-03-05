@@ -38,7 +38,9 @@ public class TreeNode {
                 queue.addFirst(node.right);
             }
         }
-        queue.removeLast().left = new TreeNode(nums[i]);
+        if (i < nums.length) {
+            queue.removeLast().left = new TreeNode(nums[i]);
+        }
     }
 
     public TreeNode(int val, TreeNode left, TreeNode right) {
