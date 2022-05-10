@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.hot100;
+package cn.youluzheng.leetcode.topcode;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
