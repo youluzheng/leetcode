@@ -1,6 +1,6 @@
 package cn.youluzheng.leetcode.topcode;
 
-public class P7_912 {
+public class P912 {
     void sort(int[] nums, int left, int right) {
         if (left == right) {
             return;

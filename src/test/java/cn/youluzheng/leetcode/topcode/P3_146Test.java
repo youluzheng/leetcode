@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class P3_146Test {
     @Test
     void test() {
-        P3_146.LRUCache cache = new P3_146.LRUCache(2);
+        P146.LRUCache cache = new P146.LRUCache(2);
         cache.put(2, 1);
         cache.put(1, 1);
         cache.put(2, 3);

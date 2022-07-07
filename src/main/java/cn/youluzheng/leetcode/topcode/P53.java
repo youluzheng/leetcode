@@ -1,6 +1,6 @@
 package cn.youluzheng.leetcode.topcode;
 
-public class P8_53 {
+public class P53 {
     public int maxSubArray(int[] nums) {
         int[] dp = new int[nums.length];
         dp[0] = nums[0];

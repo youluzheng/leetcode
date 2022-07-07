@@ -3,7 +3,7 @@ package cn.youluzheng.leetcode.topcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class P3_146 {
+public class P146 {
     public static class LRUCache {
 
         class ListNode {

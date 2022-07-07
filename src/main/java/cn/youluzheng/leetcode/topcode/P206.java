@@ -2,7 +2,7 @@ package cn.youluzheng.leetcode.topcode;
 
 import cn.youluzheng.leetcode.util.ListNode;
 
-public class P1_206 {
+public class P206 {
     public ListNode reverseList(ListNode head) {
         if (head == null) {
             return null;

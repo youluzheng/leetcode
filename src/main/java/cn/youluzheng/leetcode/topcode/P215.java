@@ -2,7 +2,7 @@ package cn.youluzheng.leetcode.topcode;
 
 import java.util.PriorityQueue;
 
-public class P4_215 {
+public class P215 {
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> queue = new PriorityQueue<>(k);
         int i = 0;

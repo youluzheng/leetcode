@@ -2,7 +2,7 @@ package cn.youluzheng.leetcode.topcode;
 
 import cn.youluzheng.leetcode.util.ListNode;
 
-public class P9_21 {
+public class P21 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode();
         ListNode node = head;

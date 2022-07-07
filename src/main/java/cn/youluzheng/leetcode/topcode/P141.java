@@ -2,7 +2,7 @@ package cn.youluzheng.leetcode.topcode;
 
 import cn.youluzheng.leetcode.util.ListNode;
 
-public class P12_141 {
+public class P141 {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
