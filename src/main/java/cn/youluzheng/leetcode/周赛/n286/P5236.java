@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n286;
+package cn.youluzheng.leetcode.周赛.n286;
 
 public class P5236 {
     public int minDeletion(int[] nums) {

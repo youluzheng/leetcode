@@ -1,5 +1,6 @@
 package cn.youluzheng.leetcode.竞赛.n285;
 
+import cn.youluzheng.leetcode.周赛.n285.P6029;
 import org.junit.jupiter.api.Test;
 
 class P6029Test {

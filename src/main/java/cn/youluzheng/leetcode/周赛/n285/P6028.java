@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n285;
+package cn.youluzheng.leetcode.周赛.n285;
 
 import java.util.Deque;
 import java.util.LinkedList;

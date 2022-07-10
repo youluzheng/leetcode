@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n295;
+package cn.youluzheng.leetcode.周赛.n295;
 
 import java.util.HashMap;
 import java.util.Map;

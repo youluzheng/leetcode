@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n286;
+package cn.youluzheng.leetcode.周赛.n286;
 
 public class P5253 {
     public long[] kthPalindrome(int[] queries, int intLength) {

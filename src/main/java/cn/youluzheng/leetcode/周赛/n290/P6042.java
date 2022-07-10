@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n290;
+package cn.youluzheng.leetcode.周赛.n290;
 
 public class P6042 {
 

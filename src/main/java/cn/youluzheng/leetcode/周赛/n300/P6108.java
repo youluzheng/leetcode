@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n300;
+package cn.youluzheng.leetcode.周赛.n300;
 
 public class P6108 {
     public String decodeMessage(String key, String message) {

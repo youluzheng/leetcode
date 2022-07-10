@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n300;
+package cn.youluzheng.leetcode.周赛.n300;
 
 import java.util.ArrayList;
 import java.util.Comparator;

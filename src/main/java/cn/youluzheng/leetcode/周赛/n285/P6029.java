@@ -1,4 +1,4 @@
-package cn.youluzheng.leetcode.竞赛.n285;
+package cn.youluzheng.leetcode.周赛.n285;
 
 public class P6029 {
     public int[] maximumBobPoints(int numArrows, int[] aliceArrows) {
