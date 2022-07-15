@@ -1,8 +1,10 @@
 package cn.youluzheng.leetcode.topcode;
 
+import cn.youluzheng.leetcode.util.PrintUtil;
+
 public class P912 {
     void sort(int[] nums, int left, int right) {
-        if (left == right) {
+        if (left >= right) {
             return;
         }
         int oldLeft = left;
@@ -32,5 +34,10 @@ public class P912 {
     public int[] sortArray(int[] nums) {
         sort(nums, 0, nums.length - 1);
         return nums;
+    }
+
+    public static void main(String[] args) {
+        P912 p912 = new P912();
+        PrintUtil.print(p912.sortArray(new int[]{5, 1, 1, 2, 0, 0}));
     }
 }
