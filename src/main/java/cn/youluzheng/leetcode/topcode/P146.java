@@ -6,7 +6,7 @@ import java.util.Map;
 public class P146 {
     public static class LRUCache {
 
-        class ListNode {
+        private class ListNode {
             public int key;
             public int val;
             public ListNode pre;
